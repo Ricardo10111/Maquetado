@@ -1,11 +1,81 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
 body{
     color: #fff;
     background-color: #1c1e1f;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+
+
 }
+
+/* referencia por id no se deben repetir y tieren prioridad sobre las clases*/
+#parrafo-center{
+    text-align: justify;
+    margin: 0px 150px 0px 150px;
+}
+/* referencia por clase y se pueden repetir*/
+.texto-verde{
+    color: rgb(125, 237, 165);
+}
+p{
+    margin: 0px 150px 0px 150px;
+    font-size: 16px;
+   
+    display: block;
+    box-sizing: border-box;
+   text-align: justify;
+}
+
 a{
     text-decoration-color: initial;
+    outline-color: initial;
+    outline: 0;
+    text-decoration: underline;
     color: rgb(125, 237, 165);
     background-color: transparent;
     text-decoration: none;
     box-sizing: border-box;
+    cursor: pointer;
+
+
+}
+li{
+    text-align: initial;
+    margin: 0px 120px 0px 130px;
+
+}
+ol{
+    list-style-type: decimal;
+}
+.strong{
+    font-weight: 700;
+    box-sizing: border-box;
+}
+h1{
+    color: inherit;
+    font-size: 40px;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    margin: 0px 170px 50px 170px;
+}
+h2{
+    margin: 0px 150px 0px 150px;
+}
+h3{
+    margin: 0px 150px 0px 150px;
 }
