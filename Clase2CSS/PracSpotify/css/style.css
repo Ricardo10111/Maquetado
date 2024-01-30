@@ -1,0 +1,11 @@
+body{
+    color: #fff;
+    background-color: #1c1e1f;
+}
+a{
+    text-decoration-color: initial;
+    color: rgb(125, 237, 165);
+    background-color: transparent;
+    text-decoration: none;
+    box-sizing: border-box;
+}
