@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="Primero">Selectores avanzados</h1>
+        
+    </header>
+
+    <!-- Esto es lo mas importante  de la pagina -->
+    <main>
+
+
+        <!-- seccion en para encapsular elementos -->
+        <section id="selectorHijo" class="contenedor">
+            <h2>Selector hijo</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum."
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum."
+                <section>
+                    <p>
+                        asdlkasjdlaksj
+                    </p>
+                </section>
+            </p>
+        </section>
+
+
+        <!-- selector hijo directo -->
+        <section id="selectorHijoDirecto", class="contenedor">
+            <h2>Selector hijo directo</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum."
+
+                <article>
+                    <p>parrafo nieto ya no es hijo y no lo toma con los cabios</p>
+                </article>
+                <p>parrafo hijo 2</p>
+            </p>
+        </section>
+        
+        <!-- selector hermano -->
+       <section id="selectorHermanoGeneral", class="contenedor">
+        <button>BotonNoHermanoIgnorado</button>
+        <h2>
+            Selector Hermano general
+            <button>botonHijoDeH2</button>
+        </h2>
+        <button>botonHermano</button>
+        <span>span hermano</span>
+        <div>
+            <button>BotonNoHermano</button>
+
+        </div>
+       </section>
+
+       <!-- selector Hermano Adyasente -->
+       <section id="selectorHermanoAdyacente" class="contenedor">
+        <h2>Selector hermano adyacente</h2>
+        <h3>Titulo h3 hijo</h3>
+        <p>Parrafo hijo</p>
+
+        
+        <h3>Titulo h3 que no es hermano siguiente de H2</h3>
+        <p>Parrafo hijo</p>
+        <h2>Selector hermano adyacente 2</h2>
+        <h3>Titulo h3 hermano</h3>
+        
+       </section>
+    </main>
+    
+</body>
+</html>
