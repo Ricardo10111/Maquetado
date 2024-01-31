@@ -9,6 +9,8 @@ body {
     padding: 12px;
     margin:  50px 20px;
     border-radius: 12px;
+    height: 500px;
+    width: 800px;
 
 }
 
@@ -45,4 +47,73 @@ body {
 
 #selectorHermanoAdyacente h2 + h3 {
     color: brown;
+}
+
+/* slector de atributos */
+
+a[href="https://www.google.com"], [href="https://www.kodemia.com.mx"]{
+
+    text-decoration: none;
+}
+
+input [type="text"] {
+
+    width: 100px;
+    padding: 10px;
+    cursor: crosshair;
+}
+
+/* pseudoselectores */
+#pseudoselectores .btn {
+    background-color: #454556;
+    color: white;
+    border: none;
+    padding: 1px;
+}
+
+#pseudoselectores .btn:hover {
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+#enlaces a:link {
+    color: red;
+}
+
+#enlaces a:visited,
+#enlaces a:hover {
+    color: green;
+}
+
+.caja {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+#listas div:first-child {
+    background-color: blue;
+    color: white;
+}
+
+#listas div:last-child {
+    background-color: green;
+    color: white;
+}
+
+#listas div:nth-child(3) {
+    background-color: chocolate;
+    color: #e3e3e3;
+    border-radius: 15px;
 }
