@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stickyContainer {
+    border: 0px solid ;
+    color: black;
+    width: 1000px;
+    left: 200px;
+    position: sticky;
+}
+ul {
+    color: black;
+    list-style: none;
+}
+
+.positionSticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 0px;
+    background-color: darkblue;
+    color: chartreuse;
+}
