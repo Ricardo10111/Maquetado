@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    background-color: white;
+    border-radius: 50%;
+}
+.circle2 {
+    background-color: black;
+    border-radius: 50%;
+}
+.circle3 {
+    background-color: black;
+    border-radius: 50%;
+}
+.circle4 {
+    background-color: black;
+    border-radius: 50%;
+}
+.box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #fff;
+    background-color: rebeccapurple;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.boxOne {
+position: absolute;
+height: 150px;
+width: 150px;
+top: 100px;
+left: 100px;
+}
+
+.boxTwo {
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    top: 50px;
+    left: 70px;
+}
+
+.boxTree {
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    top: 50px;
+    left: 200px;
+
+}
+.boxFour {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 180px;
+    left: 165px;
+}
+.boxFive {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 140px;
+    left: 190px;
+}
+.boxSix {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 140px;
+    left: 130px;
+}
+.boxSeven {
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    top: 210px;
+    left: 150px;
+}

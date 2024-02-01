@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.caja {
+    width: 100px;
+    height: 60px;
+    background-color: cadetblue;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.cajaRelativa {
+    position: relative;
+    top: 30px;
+    left: 150px;
+    /* si estan definidas 2 las otras 2 no sirven */
+    /* right: 0;
+    /* bottom: 0; */
+}
+
+.cajaRelativa2 {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #fff;
+    background-color: black;
+    position: relative;
+}
+
+.cajaAbsoluta {
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+    margin: 0;
+    /* right: 0;
+    left: 100px; */
+}
+.cajaAbsoluta2 {
+position: absolute;
+top: 0;
+right: 0;
+background-color: azure;
+}
+
+.cajaFixed {
+    position: fixed;
+    background-color: blueviolet;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    /* z index sirve en todos menos en static */
+    z-index: 1;
+}
+/* el sticky necesita un contenedor y su contenido  */
+.stickyContainer {
+    border: 8px solid blue;
+}
+
+.positionSticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: white;
+}
