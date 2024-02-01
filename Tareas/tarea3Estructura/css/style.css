@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+
+.box {
+    
+    background-color: #dedede;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.boxOne {
+    height: 150px;
+    width: 1400px;
+    top: 30px;
+    left: 70px;
+    position: relative;
+}
+
+.boxtwo {
+    height: 100px;
+    width: 1400px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+
+}
+
+.boxMain {
+    height: 600px;
+    width: 1400px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+
+.boxThre {
+    background-color: grey;
+    border-radius: 10px;
+    border: 2px solid blue;
+    position: absolute;
+    height: 100px;
+    width: 600px;
+    top: 100px;
+    left: 50px;
+}
+.boxFour {
+    background-color: grey;
+    border-radius: 10px;
+    border: 2px solid blue;
+    position: absolute;
+    height: 100px;
+    width: 600px;
+    top: 250px;
+    left: 50px;
+}
+.boxFive {
+    background-color: grey;
+    border-radius: 10px;
+    border: 2px solid blue;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 50px;
+    right: 50px;
+}
+
+.boxFooter {
+    height: 150px;
+    width: 1400px;
+    top: 100px;
+    left: 70px;
+    position: relative;
+}
