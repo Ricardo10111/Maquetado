@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+} 
+
+
+body {
+       background-color: brown;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: white;
+       text-align: center;
+   }
+   
+#displayM{
+    display: block;
+}
+#displayT, #displayLP, #displayPG, #displayPXXL{
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+     body {
+        background-color: blueviolet;
+    }
+    #displayT{
+        display: block;
+    }
+    #displayM, #displayLP, #displayPG, #displayPXXL{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    body {
+        background-color: red;
+    }
+    #displayLP{
+        display: block;
+    }
+    #displayM, #displayT, #displayPG, #displayPXXL{
+        display: none;
+    }
+}
+
+/* estilos para laptops hd */
+@media screen and (min-width:1440px) {
+    body {
+        background-color: darkcyan;
+    }
+    #displayPG{
+        display: block;
+    }
+    #displayM, #displayT, #displayLP, #displayPXXL{
+        display: none;
+    }
+}
+
+@media screen and (min-width:2600px) {
+    body {
+        background-color: blue;
+    }
+    #displayPXXL{
+        display: block;
+    }
+    #displayM, #displayT, #displayLP, #displayPG{
+        display: none;
+    }
+}
