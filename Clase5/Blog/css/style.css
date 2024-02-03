@@ -54,3 +54,12 @@ main {
         
     }
     }
+
+    @media screen and (min-width: 1440px) {
+        .post {
+            width: 30%;
+            display: inline-block;
+            margin: 20px 0.5%;
+            
+        }
+        }
