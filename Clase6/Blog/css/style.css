@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos base Mobile first*/
+
+body {
+    background: linear-gradient(218deg, rgba(105,108,108,1) 39%, rgba(240,231,231,1) 75%);
+    min-height: 100vh;
+}
+header h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+/* header ul{
+
+} */
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogList {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter:  blur(12px);
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 20px 0;
+    /* justify-content: center; */
+}
+.post img {
+    margin: 20px;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    header .enlaces{
+        display: block;
+    }
+    .enlaces ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        list-style: none;
+    }
+    .blogList{
+        flex-direction: row;
+        gap: 5%;
+        justify-content: space-between;
+    }
+
+    .post {
+
+    flex-basis: 40%;
+    max-width: 300px;
+    
+}
+}
+
+/* @media screen and (min-width: 980px) {
+    .post {
+        width: 32%;
+        display: inline-block;
+        margin: 20px 0.5%;
+        
+    }
+ }
+
+@media screen and (min-width: 1440px) {
+        .post {
+            width: 23%;
+            display: inline-block;
+            margin: 20px 0.5%;
+            
+        }
+    }
+
+@media screen and (min-width: 2600px) {
+    .post {
+         width: 18%;
+         display: inline-block;
+         margin: 20px 0.5%;
+            
+        }
+  }
+     */
