@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,20 +19,16 @@ body{
     height: 40px;
     width: 100px;
     border-radius: 5px;
-    margin-left: 150px;
     cursor: pointer;
 }
 
 .btnLefth{
-    /* display: flex; */
     background-color: darkgreen;
     border: none;
     height: 40px;
     width: 100px;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 250px;
-    /* justify-content: flex-end; */
 }
 
 .btnCenter{
@@ -36,7 +37,6 @@ body{
     height: 40px;
     width: 200px;
     border-radius: 5px;
-    margin-left: 450px;
    cursor: pointer;
    color: black;
 }
@@ -45,6 +45,10 @@ a{
     text-decoration: none;
     color: rgb(196, 193, 188);
     
+}
+a:hover {
+    background-color: aliceblue;
+    height: 10px;
 }
 ul .side{
     list-style: none;
@@ -58,18 +62,15 @@ nav{
     margin: 20px;
 }
 h2 {
-    display: flexbox;
-    margin: 50px 0.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
 }
 
 #pSolo{
     margin: 20px 100px;
 }
 
-/* .anav{
-    justify-content: space-around;
-    margin: 20px 100px;
-} */
+
 #pagetop {
     font-size: 16px;
     padding-left: 1px;
@@ -94,14 +95,8 @@ h2 {
 
 .pagetopFlex{
     display: flex;
-    justify-content: space-around;
-    /* flex-direction: row; */
-    /* justify-content: flex-end; */
-    /* align-items: flex-start; */
-    /* align-content: flex-start; */
-    /* gap: 20px; */
-    /* overflow: auto; */
-    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 20px 10%;
 } 
 
 
@@ -116,6 +111,11 @@ h2 {
 
 .container2 {
     border: none;
+    min-height: 20px;
+    width: 80%;
+    position: relative;
+    margin: 20px 1%;
+
 }
 
 .containerA{
@@ -123,6 +123,7 @@ h2 {
     gap: 20px;
     border-bottom: 1px solid darkcyan;
     border-top: 1px solid darkcyan;
+    padding: 20px 20px;
 }
 
 .containerAFlex{
@@ -131,6 +132,20 @@ h2 {
     margin: 20px 0.5%;
 }
 
+.containerBtn {
+    /* margin-left: 60px; */
+    width: 90%;
+    border: none;
+}
+.containerBtnFlex {
+    display: flexbox;
+    justify-content: space-between;
+    align-content: space-around;
+    margin: 20px 5%;
+
+
+
+}
 
 
 
@@ -145,10 +160,9 @@ h2 {
     border: none;
     font-size: 15px;
     border-radius: 1px;
-    margin: 0px 200px;
-
-    
+    margin: 0px 10px;  
 }
+
 
 .containerInside .spanGreen{
     color: rgb(77, 212, 77);
@@ -168,31 +182,25 @@ margin: 7px;
 }
 
 
-
 .containerFlex {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: end;
     align-content: center;
     gap: 20px;
-    /* overflow: auto; */
     flex-wrap: wrap;
 } 
 
-.containerFlex2 {
-    justify-content: center;
-    display: inline-flex;
-    display: flex;
-    flex-direction: row;
+.containerFlex .container2{
+    display: flexbox;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     align-content: center;
     gap: 20px;
-    /* overflow: auto; */
     flex-wrap: wrap;
 } 
-
 
 
 .containerAside {
@@ -201,15 +209,16 @@ margin: 7px;
     flex-wrap: nowrap;
     gap: 0;
     min-height: 100vh;
+    scrollbar-width: none;
  }
 
  .containerAside aside{
      flex-grow: 0;
      border: 1px solid black;
      flex-basis: 50px;
-     background-color: rgb(53, 57, 60);
-     
+     background-color: rgb(53, 57, 60);   
  }
+
  .containerAside .sl{
      flex-grow: 1;
      border: none;
@@ -219,6 +228,15 @@ margin: 7px;
  }
 
  @media screen and (min-width: 768px) {
+    .containerFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: flex-end; */
+        align-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    } 
     .sl{
         display: flexbox;
         margin: 20px 0.5%;
@@ -228,15 +246,42 @@ margin: 7px;
         display: flexbox;
         margin: 20px 0.5%;
     }
+    .containerBtnFlex {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-around;
+        margin: 20px 5%;
+
+    }
 
     }
 
     @media screen and (min-width: 980px) {
+        .containerFlex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* align-items: flex-end; */
+            align-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        } 
         .sl{
             width: 3%;
             display: inline-block;
             margin: 20px 0.5%;
             
+        }
+        .containerA{
+            display: flexbox;
+            margin: 20px 0.5%;
+        }
+        .containerBtnFlex {
+            display: flex;
+            justify-content: space-between;
+            align-content: space-around;
+            margin: 20px 5%;
+    
         }
     
         }
