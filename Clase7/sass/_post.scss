@@ -1,0 +1,50 @@
+.post {
+    position: relative;
+    // width: 80%;
+    max-width: 400px;
+    background-color: grey;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    margin-top: 20px;
+    padding: $postSpacing;
+    @include flexColumnCenter();
+
+    // el arroba es  lo mismo que esto de abajo es como llamar una funcion en JS
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+
+    img {
+        border-radius: 50%;
+        &:hover {
+           filter: sepia(0.5);
+        }
+    }
+    // img:hover {
+    //     width: 70px;
+    //     height: 70px;
+
+    // }
+    .content {
+        padding: $postSpacing;
+        @include flexColumnCenter();
+
+        p {
+            color: $blackColor;
+        }
+        button {
+            @include btnPost(#2e208a);
+           
+        }
+        #btnRojo {
+            @include btnPost($colorTextoRojo);
+            border: 2px solid brown;
+
+        }
+        #btnVerde {
+            @include btnPost(green);
+        }
+    }
+}

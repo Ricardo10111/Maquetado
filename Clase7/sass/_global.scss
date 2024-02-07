@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// declaramos variables
+
+// No puedes llamar una variable antes de crearla, primero la creas despues las usas
+
+$colorTextoRojo: red;
+$blackColor: #252525;
+$postSpacing: 20px 20px 20px 20px;
+
+// declaramos mixins
+
+
+// mixins son como clases o funciones y nos permiten meter variables dentro
+
+
+@mixin flexColumnCenter() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin btnPost($borderColor) {
+    border: 2px solid $borderColor;
+    background-color: transparent;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    &:hover {
+        background-color: aqua;
+    }
+}

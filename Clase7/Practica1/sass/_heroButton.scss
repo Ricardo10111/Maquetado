@@ -1,0 +1,8 @@
+.btnGo {
+    @include btnGoo ();
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
