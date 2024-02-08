@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3e3e3e;
+  color: white;
+}
+
+.containerFlex .myCol {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

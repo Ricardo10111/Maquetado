@@ -1,0 +1,13 @@
+.containerFlex{
+
+
+    .myCol{
+        @include flexColumn();
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    
+    }
+}
+
+    
