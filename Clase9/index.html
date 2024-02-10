@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Clase 9 Bootstrap II</title>
+</head>
+<body>
+
+    <header>
+     <section class="myNav">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+            <div class="container myNav_1">
+              <a class="navbar-brand image_nav" href="#">
+                  <img src="https://static.vecteezy.com/system/resources/previews/020/975/589/original/yamaha-logo-yamaha-icon-transparent-free-png.png" alt="">
+              </a>
+              <button 
+                  class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent" 
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Motos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+     </section>   
+        
+    </header>
+
+    <section class="myCarousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active carouSize">
+                <img src="https://acnews.blob.core.windows.net/imgnews/paragraph/NPAZ_327285a8c9f040518df073a860f5790c.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carouSize">
+                <img src="https://motos-b60.kxcdn.com/sites/default/files/yamaha-r6-race-2022.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item carouSize">
+                <img src="https://acnews.blob.core.windows.net/imgnews/paragraph/NPAZ_327285a8c9f040518df073a860f5790c.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+
+      <!-- card -->
+<section class="myCard">
+    <div class="card cardImageSize" style="width: 18rem;">
+      <img src="https://images.vexels.com/media/users/3/137724/isolated/preview/c30bc541ea2fe03747c7f569bee90089-minimalismo-infinito-logo-infinito.png" class="card-img-top" alt="mesage">
+      <div class="card-body">
+        <p class="card-text">Logo 1</p>
+      </div>
+    </div>
+    <div class="card cardImageSize" style="width: 18rem;">
+      <img src="https://png.pngtree.com/png-clipart/20230513/original/pngtree-motorbike-line-art-logo-design-png-image_9160404.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Logo 2</p>
+      </div>
+    </div>
+    <div class="card cardImageSize" style="width: 18rem;">
+      <img src="https://images.vexels.com/media/users/3/156340/isolated/preview/3341a06ad0573b6f1c46cdc6e1b989e8-icono-de-moto-simple.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Logo 3</p>
+      </div>
+    </div>
+
+</section>
+
+<section class="myColumn_">
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><h1>Moto1</h1><p>Esta es la moto bla bla </p></div>
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><img src="https://www.infobae.com/new-resizer/NoxsuNiSMvi3IXsfkkQBxsrLI-s=/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/JLM7MD7QBNFWJBXDW2X4VFT3EM.jpg" alt=""></div>
+
+        </div>
+        <div class="row">
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><img src="https://www.infobae.com/new-resizer/NoxsuNiSMvi3IXsfkkQBxsrLI-s=/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/JLM7MD7QBNFWJBXDW2X4VFT3EM.jpg" alt=""></div>
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><h1>Moto2</h1><p>Esta es la moto bla bla </p></div>
+
+        </div>
+        <div class="row">
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><h1>Moto3</h1><p>Esta es la moto bla bla </p></div>
+          <div class="col-12 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 myColumn_2"><img src="https://www.infobae.com/new-resizer/NoxsuNiSMvi3IXsfkkQBxsrLI-s=/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/JLM7MD7QBNFWJBXDW2X4VFT3EM.jpg" alt=""></div>
+
+        </div>
+      </div>
+</section>
+
+<section class="container soloH2">
+    <h2 class="text-center">Que dice la gente</h2>
+</section>
+
+<section class="myCard_2">
+    <div class="card cardImageSize_2" style="width: 18rem;">
+      <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg" class="card-img-top" alt="mesage">
+      <div class="card-body">
+        <h3>Lucia Vazquez</h3>
+        <p class="card-text">Es la mejor compañia para compara motos de todo el pais seguro...</p>
+      </div>
+    </div>
+    <div class="card cardImageSize_2" style="width: 18rem;">
+      <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3>Rodrigo Alvarado</h3>
+        <p class="card-text">Es la mejor compañia para compara motos de todo el pais seguro...</p>
+      </div>
+    </div>
+    <div class="card cardImageSize_2" style="width: 18rem;">
+      <img src="https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3>Romina Pastrana</h3>
+        <p class="card-text">Es la mejor compañia para compara motos de todo el pais seguro...</p>
+      </div>
+    </div>
+
+</section>
+
+<section class="singUp">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid singUp_1">
+          <a class="navbar-brand">Mandanos tu email nosotros te contactamos</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="email" aria-label="email">
+            <button class="btn btn-outline-success" type="submit">Enviar</button>
+          </form>
+        </div>
+      </nav>
+</section>
+
+<footer>
+    <section>
+        <div class="container containerFooter">
+            <div class="row">
+              <div class="col-lg-6 h-100 text-center text-lg-start myColumn_Footer">
+                <ul class="list-inline mb-2">
+                  <li class="list-inline-item"><a href="#">About</a></li>
+                  <li class="list-inline-item"><a href="#">Contact</a></li>
+                  <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                  <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0"> Your website 2024 All Rights Reserved</p>
+            </div>
+            <div class="col-lg-6 h-100 text-center text-lg-end myColumn_Footer_img">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item me-4">
+                  <a href="#">
+                    <img src="https://cdn.icon-icons.com/icons2/38/PNG/512/facebook_social_4561.png" alt="Facebook">
+                  </a>
+                </li>
+                <li class="list-inline-item me-4">
+                  <a href="#">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1216/1216878.png" alt="Facebook">
+                  </a>
+                </li>
+                <li class="list-inline-item me-4">
+                  <a href="#">
+                    <img src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1826414947.1700438400&semt=ais" alt="Facebook">
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+            </div>
+            
+          </div>
+    </section>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

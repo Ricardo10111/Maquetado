@@ -1,0 +1,139 @@
+.myCard {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.myCard .cardImageSize {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.myCard .cardImageSize img {
+  max-height: 9em;
+  max-width: 9em;
+}
+
+.myCard_2 {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.myCard_2 .cardImageSize_2 {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.myCard_2 .cardImageSize_2 img {
+  border-radius: 50%;
+  max-height: 15m;
+  max-width: 15em;
+}
+
+.singUp_1 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 8em;
+}
+
+.myCarousel {
+  margin-top: 6em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.myCarousel .carouSize {
+  max-width: 70%;
+  max-height: 30em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myColumn_2 {
+  border: 1px solid black;
+  padding: 0;
+  height: 32em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.myColumn_2 img {
+  height: 32em;
+  width: 100%;
+}
+
+.myColumn {
+  border: 1px solid black;
+  height: 32em;
+}
+
+.containerFooter {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.containerFooter .myColumn_Footer {
+  gap: 2em;
+}
+.containerFooter .myColumn_Footer_img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.containerFooter .myColumn_Footer_img img {
+  max-height: 2em;
+  max-width: 2em;
+}
+
+.myNav_1 {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.image_nav img {
+  height: 70px;
+  width: 70px;
+}
+
+.soloH2 {
+  justify-content: center;
+}
+.soloH2 h2 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+@import 'card';
+@import 'carru';
+@import 'global';
+@import 'column';
+@import 'nave';
+
+
+.soloH2 {
+    justify-content: center;
+    h2 {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+}

@@ -1,0 +1,17 @@
+.myCarousel {
+    margin-top: 6em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit: contain;
+    .carouSize {
+        max-width: 70%;
+        max-height: 30em;
+        
+    }
+
+}
